@@ -10,5 +10,5 @@ set(CMAKE_CXX_STANDARD 23)
 option(BUILD_CPPOVERDUB_TEST "Build the tests" ON)
 
 if(BUILD_CPPOVERDUB_TEST)
-add_subdirectory(Test)
+    add_subdirectory(Test)
 endif()

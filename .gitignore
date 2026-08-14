@@ -1,0 +1,32 @@
+# Build directories and generated build files
+/build/
+/cmake-build-debug/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+
+# Test build outputs and runtime artifacts
+Test/*.exe
+Test/*.dll
+Test/*.o
+Test/CMakeFiles/
+Test/cmake_install.cmake
+Test/CTestTestfile.cmake
+Test/stdout.txt
+Test/stderr.txt
+
+# Local tooling / IDE state
+.agents/
+.claude/
+.codegraph/
+.idea/
+.omo/
+
+# Nested third-party repos / tool artifacts (own .git inside)
+3rd_party/dsh-anchored-standard/
